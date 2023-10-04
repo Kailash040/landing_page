@@ -35,76 +35,56 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="row g-3 align-items-center">
+              
+              <div class="col-auto">
+                <input type="text" id="inputPassword6" class="form-control search_input" placeholder="Search Producs" aria-describedby="passwordHelpInline">
+                
+              </div>
+              <div class="col-auto">
+                <select class="form-select select_container" aria-label="Disabled select example" >
+                  <option selected>All categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn "><img src="./images/Search.png" alt=""></button>
+
+              </div>
+            </div>
+            
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_item">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="/filter.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="/productDetails.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Contact us</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="#">Help & support</a>
             </li>
           </ul>
+        
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#"> <img src="./images/telegram.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="#"><img src="./images/instagram.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#"><img src="./images/Vector 2998.png" alt=""></a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+        
         </div>
       </div>
     </nav>
@@ -194,21 +174,39 @@
     <!--  -->
     <!-- options -->
     <div class="all_category_container container">
-      <div class="category_item">Women</div>
-      <div class="category_item">Male</div>
-      <div class="category_item">Mother-Child</div>
-      <div class="category_item">Home & Furniture</div>
-      <div class="category_item">Super market</div>
-      <div class="category_item">Cosmetics</div>
-      <div class="category_item">Shoe & Bag</div>
-      <div class="category_item">Electronic</div>
-      <div class="category_item">Sport & Outdoor</div>
-      <div class="category_item">Best seller</div>
+      <li class="category_item">Women</li>
+      <li class="category_item">Male</li>
+      <li class="category_item">Mother-Child</li>
+      <li class="category_item">Home & Furniture</li>
+      <li class="category_item">Super market</li>
+      <li class="category_item">Cosmetics</li>
+      <li class="category_item">Shoe & Bag</li>
+      <li class="category_item">Electronic</li>
+      <li class="category_item">Sport & Outdoor</li>
+      <li class="category_item">Best seller</li>
     </div>
     <!--  -->
     <!--  -->
     <!-- banner container -->
     <!--  -->
+    <div class="banner_container_main">
+<div class="summer_essential_div text-center">
+  <p class="summer_essential">Summer Essentials</p>
+  <p class="summer_essential_off">20% off</p>
+<p class="summer_essential_months">19 Jul-30 Jul</p>
+</div>
+<div class="banner_container">
+  <div class="left_section_banner"><img src="./images/left.png" alt=""></div>
+  <div class="right_section_banner">
+    <div class="right_section_banner_des text-center">
+      <p class="Caftans">Kimonos, Caftans & Pareos</p>
+      <p class="glaim">Poolside glam included From $4.99</p>
+      <button  class="banner_button"> <img src="./images/Icon.png" alt="">&nbsp;&nbsp; SHOP NOW</button>
+    </div>
+  </div>
+
+</div>
+    </div>
     <!--  -->
     <!-- flash Sales -->
     <div class="flash_container_main container">
@@ -455,7 +453,7 @@
       <div class="trending_must_item container">
         <div class="container trendind_item_cloths">
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 trendind_item_cloths_item">
               <img src="./images/tranding_must1.png" alt="" class="img-fluid" />
               <div class="trending_must_item_detail">
                 <div class="trending_must_item_description">
@@ -469,7 +467,7 @@
                 <button class="shop_button">$89 Shop Now</button>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 trendind_item_cloths_item">
               <img src="./images/tranding_must2.png" alt="" class="img-fluid" />
               <div class="trending_must_item_detail">
                 <div class="trending_must_item_description">
@@ -483,7 +481,7 @@
                 <button class="shop_button">$89 Shop Now</button>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 trendind_item_cloths_item">
               <img src="./images/tranding_must3.png" alt="" class="img-fluid" />
               <div class="trending_must_item_detail">
                 <div class="trending_must_item_description">
@@ -701,6 +699,9 @@
       </div>
     <!--  -->
     <!-- footer_header -->
+    <div class="footer_header_main">
+
+    
     <div class="luminae_store ">
         <div class="luminae_store_heading text-center"><p>Lununae</p>    <span>Store</span></div>
         <div class="luminae_para text-center">
@@ -708,10 +709,16 @@
            <div class="button_container">
             <div class="input_email">
 
-                <input type="email" placeholder="Emter Your email">
+              <div class="row g-4 align-items-center">
+               
+                <div class="col-auto">
+                  <input type="email" placeholder="Enter your email" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+                
+              </div>
             </div>
             <div class="input_button">
-                <button>ss</button>
+              <button type="button" class="btn btn-light"><img src="./images/Vector 42 (Stroke).png" alt=""></button>
             </div>
            </div>
         </div>
@@ -750,6 +757,7 @@
 
         </div>
     </div>
+  </div>
     <!-- footer_part_3 -->
     <div class="footer_part_3 container">
         <div class="left_footer_container">
