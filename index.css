@@ -312,6 +312,7 @@ padding-bottom: 2rem;
         .input_button button{
           border: none;
           background: white;
+          padding: 7px;
         }
         .luminae_store{
      position: absolute;
